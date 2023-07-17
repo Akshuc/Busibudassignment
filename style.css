@@ -1,0 +1,422 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+    
+}
+
+.navbar-nav{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+     gap: 4rem;
+}
+
+.wave{
+
+    background: #F8FAFC url("/assets/wave-haikei\ \(1\).png") no-repeat ;
+    background-size: 1280px;
+    background-position: center;   
+    margin-left: 150px;
+    
+
+}
+
+
+@media (max-width: 767px){
+
+    
+
+    .logo{
+        position: relative;
+        left: 5px;
+    }
+    .navbar-nav{
+        display: flex;
+        
+        position: absolute;
+        left: 150px;
+        justify-content: center;
+        width: 100%;
+        background: lightgray;
+
+    }
+
+    #hero-p{
+
+        display: flex;
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    /* #hero-text-container{
+        width: 300px;
+    } */
+
+    .hero-text{
+        position: relative;
+        left: 15px;
+        
+    }
+
+    .hero-text-2{
+        position: relative;
+        right: 80px;
+       
+        padding-left: 179px;
+        
+    }
+    
+
+    #image-container{
+
+        
+        position: relative;
+        left: 10px;
+        
+        
+    }
+
+    .hero-image{
+        width: 404px;
+        height: 450px;
+    }
+
+    .hero span{
+     
+     margin-top: 57px;
+     font-size: 12px;
+     
+    }
+    
+    #button{
+
+        position: relative;
+        top: 183px;
+        left: 70px;
+    }
+    .button{
+        position: relative;
+        right: 65px;
+    }
+
+
+    #nav-button{
+        position: relative;
+        left: 150px;
+
+    }
+
+    .cards{
+        position: relative;
+        right: -8px;
+        font-size: 24px;
+    }
+
+    .wave-head{
+        position: relative;
+        top: -178px;
+        right: -77px;
+    }
+
+    .wave{
+        margin-left: -65px;
+        position: relative;
+    
+        
+    
+    }
+
+    .wave>div{
+        width: 400px;
+    }
+
+    .wave-img{
+        margin-left:-200px ;
+    }
+
+    .img-1{
+        position: relative;
+        right: 45px;
+    }
+
+    .text-container{
+        width: 350px;
+    }
+
+    .text-1{
+        position: relative;
+        top: -404px;
+        right: 284px;
+        
+    }
+    .text-2{
+        position: relative;
+        top: -143px;
+        right: 284px;
+    }
+
+    .img-2{
+        position: relative;
+        bottom: -225px;
+        right: 33px;
+    }
+
+    .img-3{
+        position: relative;
+        bottom: -442px;
+        right: 33px;
+    }
+
+    .text-3{
+        position: relative;
+        top: 103px;
+        right: 284px;
+    }
+
+    .zig-zag{
+        margin-left: 2px;
+        position: relative;
+        top: 100px;
+    }
+
+    .zig-zag>div>h1{
+        margin-left: -77px;
+        
+    }
+
+    .zig-zag2{
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
+        position: relative;
+        right: 150px;
+    }
+
+
+    .pagination-head{
+        position: relative;
+        right: 80px;
+    }
+
+    .pagination-container{
+        position: relative;
+        right: 318px;
+        width: 350px;
+    }
+
+    #page-container{
+        width: 350px;
+        position: relative;
+        bottom: -77px;
+        right: 348px;
+
+
+    }
+
+    .page-1{
+        width: 300px;
+        
+    }
+
+    .next-button{
+        position: relative;
+        left: 150px;
+        bottom: 30px;
+    }
+
+    .brand-container{
+        position: relative;
+        right: 70px;
+        top: -50px;
+    }
+
+    #brand-logos{
+        display: flex;
+        gap: 10rem;
+        position: relative;
+        right: 20px;
+        top: -100px;
+
+    }
+
+    .footer{
+       width: 500px;
+       position: relative;
+       right: 160px;
+       padding-top: 100px;
+    }
+    
+}
+
+ 
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+
+    #image-container{
+        position: relative;
+        left: 80px;
+        top: 30px;
+    }
+
+    #hero-text-container{
+        position: relative;
+        top: 50px;
+    }
+
+    .hero-image{
+        width: 500px;
+        height: 500px;
+    }
+
+    .hero-text{
+        position: relative;
+        left: 200px;
+        width: 600px;
+        top: 80px;
+
+    }
+
+    .hero-text-2{
+
+        position: relative;
+        top: 60px;
+        left: 180px;
+    }
+
+    .button{
+        position: relative;
+        top: 200px;
+        left: 30px;
+    }
+
+    #card1{
+        position: relative;
+        left: 135px;
+        top: 50px;
+    }
+
+    #card2{
+        position: relative;
+        top: 500px;
+        right: 215px;
+
+    }
+
+    #card3{
+        position: relative;
+        top: 575px;
+        left: 140px;
+    }
+
+    .wave-head{
+        position: relative;
+        top: 460px;
+        right: 150px;
+        width: 980px;
+        
+    }
+
+    .wave-img{
+        position: relative;
+        right: 100px;
+    }
+
+    .img-1{
+        position: relative;
+        left: 110px;
+    }
+
+    .text-1{
+        position: relative;
+        bottom: 50px;
+        right: 20px;
+    }
+
+    .img-2{
+        position: relative;
+        top: 420px;
+        right: 122px;
+    }
+
+    .text-2{
+        position: relative;
+        top: 270px;
+        right: 15px;
+    }
+
+    .img-3{
+        position: relative;
+        top: 850px;
+        right: 362px;
+    }
+
+    .text-3{
+        position: relative;
+        top: 590px;
+        right: 15px;
+    }
+
+    .zig-zag{
+        position: relative;
+        top: 600px;
+        left: 10px;
+        
+    }
+
+    .zig-zag-head{
+        position: relative;
+        left: 50px;
+    }
+
+    .pagi{
+        position: relative;
+        top: 600px;
+        
+    }
+    .pagination-head{
+        position: relative;
+        left: 50px;
+    }
+
+    .pagination-container{
+        position: relative;
+        right: 0px;
+        width: 455px;
+        right: -60px;
+        
+    
+    }
+
+    #page-container{
+        
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        top: 100px;
+        width: 1383px;
+        right: -85px;
+    }
+
+    .brand-container{
+        position: relative;
+        top: 500px;
+        left: 164px;
+        width: 822px;
+    }
+
+    .footer{
+        position: relative;
+        top: 500px;
+    }
+
+    
+    
+
+  }
+  
